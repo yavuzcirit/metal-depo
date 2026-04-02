@@ -37,7 +37,7 @@ export function ImageGallery({ images, productName }: ImageGalleryProps) {
           priority
         />
         <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity bg-white/80 p-2">
-          <ZoomIn size={16} className="text-navy-DEFAULT" />
+          <ZoomIn size={16} className="text-navy" />
         </div>
         {images.length > 1 && (
           <>
@@ -66,7 +66,7 @@ export function ImageGallery({ images, productName }: ImageGalleryProps) {
               onClick={() => setCurrent(i)}
               className={cn(
                 'relative h-16 w-16 shrink-0 overflow-hidden border-2 transition-colors',
-                i === current ? 'border-navy-DEFAULT' : 'border-steel-200 hover:border-steel-400',
+                i === current ? 'border-navy' : 'border-steel-200 hover:border-steel-400',
               )}
             >
               <Image src={getImageUrl(img)} alt={`${productName} thumbnail ${i + 1}`} fill className="object-cover" />

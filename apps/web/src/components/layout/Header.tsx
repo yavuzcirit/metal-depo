@@ -39,12 +39,12 @@ export function Header() {
       <div className="container-wide flex h-full items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="flex h-9 w-9 items-center justify-center bg-gold-DEFAULT">
+          <div className="flex h-9 w-9 items-center justify-center bg-gold">
             <span className="text-navy-900 font-black text-sm tracking-tight">MD</span>
           </div>
           <div className="flex flex-col">
             <span className="text-white font-bold text-lg leading-none tracking-wider">
-              METAL<span className="text-gold-DEFAULT">DEPO</span>
+              METAL<span className="text-gold">DEPO</span>
             </span>
             <span className="text-white/40 text-[9px] uppercase tracking-widest">
               Premium Industrial Supply
@@ -61,13 +61,13 @@ export function Header() {
               className={cn(
                 'relative px-4 py-2 text-sm font-medium uppercase tracking-widest transition-colors duration-200',
                 pathname === link.href
-                  ? 'text-gold-DEFAULT'
+                  ? 'text-gold'
                   : 'text-white/70 hover:text-white',
               )}
             >
               {link.label}
               {pathname === link.href && (
-                <span className="absolute bottom-0 left-4 right-4 h-px bg-gold-DEFAULT" />
+                <span className="absolute bottom-0 left-4 right-4 h-px bg-gold" />
               )}
             </Link>
           ))}
@@ -105,7 +105,7 @@ export function Header() {
               onClick={() => setIsOpen(false)}
               className={cn(
                 'px-4 py-3 text-sm font-medium uppercase tracking-widest border-b border-white/5',
-                pathname === link.href ? 'text-gold-DEFAULT' : 'text-white/70',
+                pathname === link.href ? 'text-gold' : 'text-white/70',
               )}
             >
               {link.label}

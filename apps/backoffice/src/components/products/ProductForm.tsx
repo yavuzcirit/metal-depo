@@ -194,7 +194,7 @@ export function ProductForm({ product }: ProductFormProps) {
                       <X size={10} />
                     </button>
                     {i === 0 && (
-                      <span className="absolute bottom-1 left-1 text-[9px] bg-navy-DEFAULT text-white px-1.5 py-0.5">
+                      <span className="absolute bottom-1 left-1 text-[9px] bg-navy text-white px-1.5 py-0.5">
                         Main
                       </span>
                     )}

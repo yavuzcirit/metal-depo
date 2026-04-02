@@ -12,7 +12,7 @@
     @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-medium transition-all duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 disabled:opacity-50 disabled:cursor-not-allowed;
   }
   .btn-primary {
-    @apply btn bg-navy-DEFAULT text-white hover:bg-navy-800 focus-visible:ring-navy-DEFAULT;
+    @apply btn bg-navy text-white hover:bg-navy-800 focus-visible:ring-navy;
   }
   .btn-danger {
     @apply btn bg-red-500 text-white hover:bg-red-600 focus-visible:ring-red-500;
@@ -24,7 +24,7 @@
     @apply btn border border-gray-200 text-gray-700 hover:bg-gray-50;
   }
   .input {
-    @apply w-full rounded-md border border-gray-200 bg-white px-3 py-2 text-sm focus:border-navy-DEFAULT focus:outline-none focus:ring-1 focus:ring-navy-DEFAULT placeholder:text-gray-400;
+    @apply w-full rounded-md border border-gray-200 bg-white px-3 py-2 text-sm focus:border-navy focus:outline-none focus:ring-1 focus:ring-navy placeholder:text-gray-400;
   }
   .label {
     @apply mb-1 block text-xs font-semibold uppercase tracking-wider text-gray-500;

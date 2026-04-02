@@ -43,7 +43,7 @@ export function ProductCard({ product, className }: ProductCardProps) {
         {/* Featured badge */}
         {product.featured && (
           <div className="absolute top-3 right-3">
-            <span className="inline-flex items-center gap-1 bg-gold-DEFAULT text-navy-900 text-[10px] font-bold uppercase tracking-widest px-2.5 py-1">
+            <span className="inline-flex items-center gap-1 bg-gold text-navy-900 text-[10px] font-bold uppercase tracking-widest px-2.5 py-1">
               Featured
             </span>
           </div>
@@ -82,7 +82,7 @@ export function ProductCard({ product, className }: ProductCardProps) {
           ) : (
             <span className="text-steel-400 text-xs italic">Contact for price</span>
           )}
-          <span className="flex items-center gap-1 text-navy-DEFAULT text-[11px] font-semibold uppercase tracking-wider group-hover:text-gold-600 transition-colors">
+          <span className="flex items-center gap-1 text-navy text-[11px] font-semibold uppercase tracking-wider group-hover:text-gold-600 transition-colors">
             View
             <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
           </span>

@@ -14,13 +14,13 @@ export function CtaSection() {
       />
       <div className="container-wide relative">
         <div className="max-w-3xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-gold-DEFAULT/10 border border-gold-DEFAULT/20 text-gold-DEFAULT text-xs font-semibold uppercase tracking-widest px-4 py-2 mb-6">
+          <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/20 text-gold text-xs font-semibold uppercase tracking-widest px-4 py-2 mb-6">
             Ready to Order?
           </div>
           <h2 className="text-4xl font-black text-white leading-tight tracking-tight mb-5 md:text-5xl">
             Start Sourcing Premium
             <br />
-            <span className="text-gold-DEFAULT">Metal Products Today</span>
+            <span className="text-gold">Metal Products Today</span>
           </h2>
           <p className="text-white/50 text-base leading-relaxed mb-10 max-w-xl mx-auto">
             Get competitive quotes within 24 hours. Our team of experts is ready to help you find

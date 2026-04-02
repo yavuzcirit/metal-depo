@@ -26,11 +26,11 @@
 
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-none bg-navy-DEFAULT px-8 py-3.5 text-sm font-semibold tracking-widest text-white uppercase transition-all duration-200 hover:bg-navy-800 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-DEFAULT;
+    @apply inline-flex items-center justify-center gap-2 rounded-none bg-navy px-8 py-3.5 text-sm font-semibold tracking-widest text-white uppercase transition-all duration-200 hover:bg-navy-800 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold;
   }
 
   .btn-gold {
-    @apply inline-flex items-center justify-center gap-2 rounded-none bg-gold-DEFAULT px-8 py-3.5 text-sm font-semibold tracking-widest text-navy-900 uppercase transition-all duration-200 hover:bg-gold-500 hover:shadow-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-DEFAULT;
+    @apply inline-flex items-center justify-center gap-2 rounded-none bg-gold px-8 py-3.5 text-sm font-semibold tracking-widest text-navy-900 uppercase transition-all duration-200 hover:bg-gold-500 hover:shadow-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold;
   }
 
   .btn-outline {
@@ -46,11 +46,11 @@
   }
 
   .product-card {
-    @apply group relative flex flex-col overflow-hidden bg-white shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover;
+    @apply relative flex flex-col overflow-hidden bg-white shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover;
   }
 
   .input-base {
-    @apply w-full rounded-none border border-steel-200 bg-white px-4 py-3 text-sm text-steel-900 placeholder:text-steel-400 focus:border-navy-DEFAULT focus:outline-none focus:ring-1 focus:ring-navy-DEFAULT;
+    @apply w-full rounded-none border border-steel-200 bg-white px-4 py-3 text-sm text-steel-900 placeholder:text-steel-400 focus:border-navy focus:outline-none focus:ring-1 focus:ring-navy;
   }
 
   .label-base {
@@ -62,7 +62,7 @@
   }
 
   .divider-gold {
-    @apply h-0.5 w-12 bg-gold-DEFAULT;
+    @apply h-0.5 w-12 bg-gold;
   }
 }
 
@@ -72,7 +72,7 @@
 }
 
 .swiper-pagination-bullet-active {
-  @apply bg-gold-DEFAULT;
+  @apply bg-gold;
 }
 
 /* Custom scrollbar */
@@ -89,5 +89,5 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-navy-DEFAULT;
+  @apply bg-navy;
 }

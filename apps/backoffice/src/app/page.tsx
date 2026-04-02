@@ -74,7 +74,7 @@ export default async function DashboardPage() {
             <Link
               key={href}
               href={href}
-              className="flex items-center gap-2.5 rounded-lg border border-gray-200 px-4 py-3 text-sm font-medium text-gray-700 hover:border-navy-DEFAULT hover:bg-navy-50 hover:text-navy-DEFAULT transition-all"
+              className="flex items-center gap-2.5 rounded-lg border border-gray-200 px-4 py-3 text-sm font-medium text-gray-700 hover:border-navy hover:bg-navy-50 hover:text-navy transition-all"
             >
               <Icon size={15} className="text-gray-400" />
               {label}

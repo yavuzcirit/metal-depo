@@ -34,7 +34,7 @@ export function CategoryShowcase({ categories }: CategoryShowcaseProps) {
           </div>
           <Link
             href="/products"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-navy-DEFAULT uppercase tracking-widest hover:text-gold-600 transition-colors group"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-navy uppercase tracking-widest hover:text-gold-600 transition-colors group"
           >
             View All Products
             <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
@@ -76,7 +76,7 @@ export function CategoryShowcase({ categories }: CategoryShowcaseProps) {
 
               {/* Bottom strip */}
               <div className="absolute bottom-0 left-0 right-0 p-4">
-                <div className="h-px w-0 bg-gold-DEFAULT group-hover:w-full transition-all duration-500 mb-2" />
+                <div className="h-px w-0 bg-gold group-hover:w-full transition-all duration-500 mb-2" />
                 <div className="flex items-end justify-between">
                   <div>
                     <p className="text-white font-bold text-sm leading-tight">{category.name}</p>
@@ -88,7 +88,7 @@ export function CategoryShowcase({ categories }: CategoryShowcaseProps) {
                   </div>
                   <ArrowRight
                     size={14}
-                    className="text-gold-DEFAULT opacity-0 group-hover:opacity-100 group-hover:translate-x-0 -translate-x-2 transition-all duration-300"
+                    className="text-gold opacity-0 group-hover:opacity-100 group-hover:translate-x-0 -translate-x-2 transition-all duration-300"
                   />
                 </div>
               </div>

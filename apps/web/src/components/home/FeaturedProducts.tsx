@@ -24,7 +24,7 @@ export function FeaturedProducts({ products }: FeaturedProductsProps) {
           </div>
           <Link
             href="/products"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-navy-DEFAULT uppercase tracking-widest hover:text-gold-600 transition-colors group"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-navy uppercase tracking-widest hover:text-gold-600 transition-colors group"
           >
             View All Products
             <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />

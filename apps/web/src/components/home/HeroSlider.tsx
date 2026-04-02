@@ -116,8 +116,8 @@ export function HeroSlider({ banners }: HeroSliderProps) {
           >
             {/* Eyebrow */}
             <div className="flex items-center gap-3 mb-5">
-              <span className="h-px w-10 bg-gold-DEFAULT" />
-              <span className="text-gold-DEFAULT text-xs font-semibold uppercase tracking-[4px]">
+              <span className="h-px w-10 bg-gold" />
+              <span className="text-gold text-xs font-semibold uppercase tracking-[4px]">
                 {slide.subtitle}
               </span>
             </div>
@@ -151,14 +151,14 @@ export function HeroSlider({ banners }: HeroSliderProps) {
       {/* Navigation arrows */}
       <button
         onClick={prev}
-        className="absolute left-4 top-1/2 -translate-y-1/2 z-20 flex h-11 w-11 items-center justify-center bg-white/10 text-white backdrop-blur-sm hover:bg-gold-DEFAULT hover:text-navy-900 transition-all duration-200 md:left-8"
+        className="absolute left-4 top-1/2 -translate-y-1/2 z-20 flex h-11 w-11 items-center justify-center bg-white/10 text-white backdrop-blur-sm hover:bg-gold hover:text-navy-900 transition-all duration-200 md:left-8"
         aria-label="Previous slide"
       >
         <ChevronLeft size={20} />
       </button>
       <button
         onClick={next}
-        className="absolute right-4 top-1/2 -translate-y-1/2 z-20 flex h-11 w-11 items-center justify-center bg-white/10 text-white backdrop-blur-sm hover:bg-gold-DEFAULT hover:text-navy-900 transition-all duration-200 md:right-8"
+        className="absolute right-4 top-1/2 -translate-y-1/2 z-20 flex h-11 w-11 items-center justify-center bg-white/10 text-white backdrop-blur-sm hover:bg-gold hover:text-navy-900 transition-all duration-200 md:right-8"
         aria-label="Next slide"
       >
         <ChevronRight size={20} />
@@ -172,7 +172,7 @@ export function HeroSlider({ banners }: HeroSliderProps) {
             onClick={() => goTo(i)}
             className={cn(
               'h-1 transition-all duration-300',
-              i === current ? 'w-8 bg-gold-DEFAULT' : 'w-3 bg-white/30 hover:bg-white/60',
+              i === current ? 'w-8 bg-gold' : 'w-3 bg-white/30 hover:bg-white/60',
             )}
             aria-label={`Go to slide ${i + 1}`}
           />

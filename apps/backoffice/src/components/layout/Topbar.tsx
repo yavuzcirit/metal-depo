@@ -30,7 +30,7 @@ export function Topbar() {
         <button className="relative flex h-8 w-8 items-center justify-center rounded-md text-gray-400 hover:bg-gray-100 hover:text-gray-600 transition-colors">
           <Bell size={16} />
         </button>
-        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-navy-DEFAULT text-white text-xs font-bold">
+        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-navy text-white text-xs font-bold">
           A
         </div>
       </div>

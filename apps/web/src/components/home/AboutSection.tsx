@@ -18,7 +18,7 @@ export function AboutSection() {
             <div className="divider-gold mb-4" />
             <h2 className="text-4xl font-black text-white leading-tight tracking-tight mb-6 md:text-5xl">
               Your Global Metal
-              <span className="text-gold-DEFAULT"> Supply Partner</span>
+              <span className="text-gold"> Supply Partner</span>
             </h2>
             <p className="text-white/60 text-base leading-relaxed mb-6">
               With over two decades of experience in the metal industry, MetalDepo has established
@@ -34,7 +34,7 @@ export function AboutSection() {
             <ul className="space-y-3 mb-10">
               {features.map(({ icon: Icon, text }) => (
                 <li key={text} className="flex items-center gap-3">
-                  <Icon size={16} className="text-gold-DEFAULT shrink-0" />
+                  <Icon size={16} className="text-gold shrink-0" />
                   <span className="text-white/70 text-sm">{text}</span>
                 </li>
               ))}
@@ -50,11 +50,11 @@ export function AboutSection() {
             {/* Decorative boxes */}
             <div className="aspect-square bg-gradient-to-br from-navy-800 to-steel-800 flex items-center justify-center">
               <div className="text-center p-6">
-                <div className="text-5xl font-black text-gold-DEFAULT mb-2">20+</div>
+                <div className="text-5xl font-black text-gold mb-2">20+</div>
                 <div className="text-white/50 text-xs uppercase tracking-widest">Years in Metal Industry</div>
               </div>
             </div>
-            <div className="aspect-square bg-gold-DEFAULT flex items-center justify-center mt-8">
+            <div className="aspect-square bg-gold flex items-center justify-center mt-8">
               <div className="text-center p-6">
                 <div className="text-5xl font-black text-navy-900 mb-2">50+</div>
                 <div className="text-navy-700 text-xs uppercase tracking-widest">Export Destinations</div>
@@ -68,7 +68,7 @@ export function AboutSection() {
             </div>
             <div className="aspect-square bg-gradient-to-br from-navy-700 to-navy-900 flex items-center justify-center">
               <div className="text-center p-6">
-                <div className="text-5xl font-black text-gold-DEFAULT mb-2">99%</div>
+                <div className="text-5xl font-black text-gold mb-2">99%</div>
                 <div className="text-white/50 text-xs uppercase tracking-widest">Client Satisfaction</div>
               </div>
             </div>

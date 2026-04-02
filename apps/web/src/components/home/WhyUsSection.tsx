@@ -52,9 +52,9 @@ export function WhyUsSection() {
           {reasons.map((item) => (
             <div
               key={item.title}
-              className="group bg-white p-8 border-b-2 border-transparent hover:border-gold-DEFAULT shadow-card hover:shadow-card-hover transition-all duration-300"
+              className="group bg-white p-8 border-b-2 border-transparent hover:border-gold shadow-card hover:shadow-card-hover transition-all duration-300"
             >
-              <div className="flex h-12 w-12 items-center justify-center bg-navy-50 text-navy-DEFAULT mb-5 group-hover:bg-gold-DEFAULT group-hover:text-navy-900 transition-colors duration-300">
+              <div className="flex h-12 w-12 items-center justify-center bg-navy-50 text-navy mb-5 group-hover:bg-gold group-hover:text-navy-900 transition-colors duration-300">
                 <item.icon size={22} />
               </div>
               <h3 className="text-navy-900 font-bold text-base mb-2">{item.title}</h3>

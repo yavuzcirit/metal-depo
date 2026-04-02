@@ -78,7 +78,7 @@ export default async function ProductsPage({ searchParams }: PageProps) {
                   </span>
                 </div>
                 {category && (
-                  <span className="text-xs bg-navy-50 text-navy-DEFAULT border border-navy-100 px-3 py-1 font-medium">
+                  <span className="text-xs bg-navy-50 text-navy border border-navy-100 px-3 py-1 font-medium">
                     {categories.find((c) => c.slug === category)?.name || category}
                   </span>
                 )}

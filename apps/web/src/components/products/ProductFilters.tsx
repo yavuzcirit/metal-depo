@@ -36,7 +36,7 @@ export function ProductFilters({ categories, activeCategory }: ProductFiltersPro
             className={cn(
               'w-full text-left px-3 py-2.5 text-sm transition-all duration-150 border-l-2',
               !activeCategory
-                ? 'border-gold-DEFAULT bg-navy-50 text-navy-900 font-semibold'
+                ? 'border-gold bg-navy-50 text-navy-900 font-semibold'
                 : 'border-transparent text-steel-600 hover:border-steel-200 hover:text-steel-900 hover:bg-steel-50',
             )}
           >
@@ -50,7 +50,7 @@ export function ProductFilters({ categories, activeCategory }: ProductFiltersPro
               className={cn(
                 'w-full text-left px-3 py-2.5 text-sm transition-all duration-150 border-l-2 flex items-center justify-between group',
                 activeCategory === cat.slug
-                  ? 'border-gold-DEFAULT bg-navy-50 text-navy-900 font-semibold'
+                  ? 'border-gold bg-navy-50 text-navy-900 font-semibold'
                   : 'border-transparent text-steel-600 hover:border-steel-200 hover:text-steel-900 hover:bg-steel-50',
               )}
             >

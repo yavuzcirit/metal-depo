@@ -53,7 +53,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-5">
             {/* Contact Info */}
             <div className="lg:col-span-2 space-y-0">
-              <div className="bg-navy-DEFAULT text-white p-8 mb-0">
+              <div className="bg-navy text-white p-8 mb-0">
                 <h2 className="text-xl font-bold mb-2">Contact Information</h2>
                 <p className="text-white/50 text-sm mb-8">
                   Reach out directly or use the form to send us a message.
@@ -63,7 +63,7 @@ export default function ContactPage() {
                   {contactInfo.map(({ icon: Icon, title, lines }) => (
                     <div key={title} className="flex items-start gap-4">
                       <div className="flex h-9 w-9 shrink-0 items-center justify-center bg-white/5">
-                        <Icon size={15} className="text-gold-DEFAULT" />
+                        <Icon size={15} className="text-gold" />
                       </div>
                       <div>
                         <p className="text-white/40 text-[10px] uppercase tracking-widest mb-1">

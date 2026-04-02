@@ -72,7 +72,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
               <div className="flex items-center gap-3 mb-3">
                 <Link
                   href={`/products?category=${product.category.slug}`}
-                  className="text-xs text-steel-500 bg-steel-100 px-3 py-1 hover:bg-navy-50 hover:text-navy-DEFAULT transition-colors"
+                  className="text-xs text-steel-500 bg-steel-100 px-3 py-1 hover:bg-navy-50 hover:text-navy transition-colors"
                 >
                   {product.category.name}
                 </Link>
@@ -91,7 +91,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
 
               {/* Price */}
               <div className="flex items-baseline gap-3 mb-6 pb-6 border-b border-steel-100">
-                <span className="text-2xl font-bold text-navy-DEFAULT">
+                <span className="text-2xl font-bold text-navy">
                   {formatPrice(product.price, product.unit)}
                 </span>
                 {!product.price && (
@@ -110,7 +110,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
 
               {/* Details */}
               {product.details && (
-                <div className="mb-8 p-5 bg-steel-50 border-l-2 border-gold-DEFAULT">
+                <div className="mb-8 p-5 bg-steel-50 border-l-2 border-gold">
                   <h3 className="text-xs font-bold uppercase tracking-widest text-steel-500 mb-3">
                     Technical Details
                   </h3>
@@ -166,7 +166,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
                     key={badge}
                     className="flex items-center justify-center gap-1.5 border border-steel-200 py-2.5 text-center"
                   >
-                    <Package size={11} className="text-gold-DEFAULT" />
+                    <Package size={11} className="text-gold" />
                     <span className="text-[10px] font-semibold uppercase tracking-wider text-steel-600">
                       {badge}
                     </span>

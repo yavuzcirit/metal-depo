@@ -30,12 +30,12 @@ export function Sidebar() {
     <aside className="flex h-full w-60 flex-col bg-sidebar border-r border-white/5 shrink-0">
       {/* Logo */}
       <div className="flex items-center gap-3 px-5 py-5 border-b border-white/5">
-        <div className="flex h-8 w-8 items-center justify-center bg-gold-DEFAULT">
+        <div className="flex h-8 w-8 items-center justify-center bg-gold">
           <span className="text-[11px] font-black text-navy-950">MD</span>
         </div>
         <div>
           <p className="text-white text-sm font-bold tracking-wide leading-none">
-            METAL<span className="text-gold-DEFAULT">DEPO</span>
+            METAL<span className="text-gold">DEPO</span>
           </p>
           <p className="text-white/30 text-[10px] mt-0.5">Admin Panel</p>
         </div>
@@ -57,9 +57,9 @@ export function Sidebar() {
                   : 'text-white/50 hover:bg-white/5 hover:text-white/80',
               )}
             >
-              <Icon size={16} className={isActive ? 'text-gold-DEFAULT' : ''} />
+              <Icon size={16} className={isActive ? 'text-gold' : ''} />
               <span>{label}</span>
-              {isActive && <ChevronRight size={12} className="ml-auto text-gold-DEFAULT/50" />}
+              {isActive && <ChevronRight size={12} className="ml-auto text-gold/50" />}
             </Link>
           )
         })}

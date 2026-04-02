@@ -19,7 +19,7 @@ export function Footer() {
   return (
     <footer className="bg-navy-950 text-white">
       {/* Top CTA strip */}
-      <div className="bg-gold-DEFAULT">
+      <div className="bg-gold">
         <div className="container-wide py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-navy-900 font-semibold text-sm tracking-wide">
             Ready to source premium metal products for your business?
@@ -39,12 +39,12 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-5">
-              <div className="flex h-9 w-9 items-center justify-center bg-gold-DEFAULT">
+              <div className="flex h-9 w-9 items-center justify-center bg-gold">
                 <span className="text-navy-900 font-black text-sm">MD</span>
               </div>
               <div>
                 <span className="text-white font-bold text-lg tracking-wider">
-                  METAL<span className="text-gold-DEFAULT">DEPO</span>
+                  METAL<span className="text-gold">DEPO</span>
                 </span>
               </div>
             </Link>
@@ -55,13 +55,13 @@ export function Footer() {
             <div className="flex items-center gap-3">
               <a
                 href="#"
-                className="flex h-9 w-9 items-center justify-center rounded-none bg-white/5 text-white/60 hover:bg-gold-DEFAULT hover:text-navy-900 transition-colors"
+                className="flex h-9 w-9 items-center justify-center rounded-none bg-white/5 text-white/60 hover:bg-gold hover:text-navy-900 transition-colors"
               >
                 <Linkedin size={15} />
               </a>
               <a
                 href="#"
-                className="flex h-9 w-9 items-center justify-center rounded-none bg-white/5 text-white/60 hover:bg-gold-DEFAULT hover:text-navy-900 transition-colors"
+                className="flex h-9 w-9 items-center justify-center rounded-none bg-white/5 text-white/60 hover:bg-gold hover:text-navy-900 transition-colors"
               >
                 <Twitter size={15} />
               </a>
@@ -78,9 +78,9 @@ export function Footer() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-white/50 text-sm hover:text-gold-DEFAULT transition-colors flex items-center gap-2 group"
+                    className="text-white/50 text-sm hover:text-gold transition-colors flex items-center gap-2 group"
                   >
-                    <span className="h-px w-3 bg-gold-DEFAULT/30 group-hover:w-5 transition-all" />
+                    <span className="h-px w-3 bg-gold/30 group-hover:w-5 transition-all" />
                     {item.label}
                   </Link>
                 </li>
@@ -98,9 +98,9 @@ export function Footer() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-white/50 text-sm hover:text-gold-DEFAULT transition-colors flex items-center gap-2 group"
+                    className="text-white/50 text-sm hover:text-gold transition-colors flex items-center gap-2 group"
                   >
-                    <span className="h-px w-3 bg-gold-DEFAULT/30 group-hover:w-5 transition-all" />
+                    <span className="h-px w-3 bg-gold/30 group-hover:w-5 transition-all" />
                     {item.label}
                   </Link>
                 </li>
@@ -115,7 +115,7 @@ export function Footer() {
             </h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <MapPin size={14} className="text-gold-DEFAULT mt-0.5 shrink-0" />
+                <MapPin size={14} className="text-gold mt-0.5 shrink-0" />
                 <span className="text-white/50 text-sm">
                   123 Industrial Boulevard
                   <br />
@@ -123,19 +123,19 @@ export function Footer() {
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone size={14} className="text-gold-DEFAULT shrink-0" />
+                <Phone size={14} className="text-gold shrink-0" />
                 <a
                   href="tel:+905001234567"
-                  className="text-white/50 text-sm hover:text-gold-DEFAULT transition-colors"
+                  className="text-white/50 text-sm hover:text-gold transition-colors"
                 >
                   +90 500 123 45 67
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <Mail size={14} className="text-gold-DEFAULT shrink-0" />
+                <Mail size={14} className="text-gold shrink-0" />
                 <a
                   href="mailto:info@metaldepo.com"
-                  className="text-white/50 text-sm hover:text-gold-DEFAULT transition-colors"
+                  className="text-white/50 text-sm hover:text-gold transition-colors"
                 >
                   info@metaldepo.com
                 </a>

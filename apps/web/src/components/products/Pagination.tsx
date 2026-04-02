@@ -36,7 +36,7 @@ export function Pagination({ currentPage, totalPages }: PaginationProps) {
       <button
         onClick={() => goTo(currentPage - 1)}
         disabled={currentPage <= 1}
-        className="flex h-9 w-9 items-center justify-center border border-steel-200 text-steel-600 hover:border-navy-DEFAULT hover:text-navy-DEFAULT disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+        className="flex h-9 w-9 items-center justify-center border border-steel-200 text-steel-600 hover:border-navy hover:text-navy disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
       >
         <ChevronLeft size={15} />
       </button>
@@ -53,8 +53,8 @@ export function Pagination({ currentPage, totalPages }: PaginationProps) {
             className={cn(
               'flex h-9 w-9 items-center justify-center text-sm font-medium transition-colors',
               currentPage === p
-                ? 'bg-navy-DEFAULT text-white border border-navy-DEFAULT'
-                : 'border border-steel-200 text-steel-600 hover:border-navy-DEFAULT hover:text-navy-DEFAULT',
+                ? 'bg-navy text-white border border-navy'
+                : 'border border-steel-200 text-steel-600 hover:border-navy hover:text-navy',
             )}
           >
             {p}
@@ -65,7 +65,7 @@ export function Pagination({ currentPage, totalPages }: PaginationProps) {
       <button
         onClick={() => goTo(currentPage + 1)}
         disabled={currentPage >= totalPages}
-        className="flex h-9 w-9 items-center justify-center border border-steel-200 text-steel-600 hover:border-navy-DEFAULT hover:text-navy-DEFAULT disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+        className="flex h-9 w-9 items-center justify-center border border-steel-200 text-steel-600 hover:border-navy hover:text-navy disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
       >
         <ChevronRight size={15} />
       </button>
