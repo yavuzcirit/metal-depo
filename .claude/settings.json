@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(PGPASSWORD=postgres psql -h 127.0.0.1 -U postgres -d metal_depo -c \"SELECT 1;\")"
+    ]
+  }
+}
